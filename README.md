@@ -1,16 +1,22 @@
-### Hi there 👋
-
-<!--
-**vkisgh/vkisgh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#include<stdio.h>
+int main()
+{
+	int id,ps;
+	printf("ente your id: ",id);
+	scanf("%d",&id);
+	switch(id)
+	{
+	
+		case 1001:puts("enter your pswd: ");
+		scanf("%d",&ps);
+		switch(ps)
+		{
+			case 1011: puts(" welcome you login: ");
+					break;
+            default:puts("invalid your id or pswd");
+               break;
+        }
+        break;
+        default:puts("id invalid");
+	}
+}
